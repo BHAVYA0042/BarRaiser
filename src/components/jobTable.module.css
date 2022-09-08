@@ -1,0 +1,21 @@
+.launch div{
+  height:32.5px;
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+}
+.info div{
+display: flex !important;
+align-items: center;
+}
+.infoChip{
+margin-right: 15px;
+}
+a{
+text-decoration: none;
+color: black;
+cursor: pointer;
+}
+a:hover{
+  text-decoration: underline;
+}

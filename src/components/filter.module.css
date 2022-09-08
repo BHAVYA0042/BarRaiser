@@ -1,0 +1,40 @@
+.filterBox label{
+  font-size: 14px;
+  color: #333333;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.filterBox section{
+  margin: 10px 0;
+}
+/* .filterBox{
+  overflow-y: scroll;
+  margin-right: 5%;
+  padding: 2%;
+} */
+.lone{
+  display: flex;
+  justify-content: center;
+  align-items:flex-start;
+}
+.lthree{
+  display: flex;
+  justify-content: space-between;
+}
+.lthree button{
+  background-color: transparent;
+  color: #008BDC;
+  border: none;
+  cursor: pointer;
+}
+
+.filterButton{
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  background-color: #1976d2;
+  color: white;
+  border-radius: 50px;
+  margin: 15px;
+
+}
