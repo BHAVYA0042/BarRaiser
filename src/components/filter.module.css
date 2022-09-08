@@ -18,6 +18,7 @@
   align-items:flex-start;
 }
 .lthree{
+  margin-top: 20px;
   display: flex;
   justify-content: space-between;
 }
@@ -38,3 +39,6 @@
   margin: 15px;
 
 }
+/* .inputs{
+  margin-bottom: 20px;
+} */

@@ -129,6 +129,7 @@ export default function PersistentDrawerLeft() {
         </DrawerHeader>
         <Divider />
         <TextField
+        className={classes.inputs}
         id="outlined-name"
         label="First Name"
         value={filterInput.firstName}
@@ -137,6 +138,7 @@ export default function PersistentDrawerLeft() {
         }}
       />
           <TextField
+          className={classes.inputs}
         id="outlined-name"
         label="Last Name"
         value={filterInput.lastName}
@@ -145,6 +147,7 @@ export default function PersistentDrawerLeft() {
         }}
       />
           <TextField
+          className={classes.inputs}
         id="outlined-name"
         label="Address"
         value={filterInput.address}
@@ -154,6 +157,7 @@ export default function PersistentDrawerLeft() {
       />
 
         <Autocomplete
+        className={classes.inputs}
               value={filterInput.designation}
               onChange={(event, newValue) => {
                 setFilterInput({...filterInput, designation:newValue});
@@ -178,18 +182,6 @@ export default function PersistentDrawerLeft() {
               )}
             />
         <Divider />
-    {/* <LocalizationProvider dateAdapter={AdapterDayjs}>
-      <DatePicker
-        label="Basic example"
-        value={filterInput.joinDate}
-        onChange={(newValue) => {
-          setFilterInput({...filterInput,joinDate:newValue.d});
-        }}
-        renderInput={(params) => <TextField {...params} />}
-        // inputFormat="DD/MM/YYYY"
-
-      />
-    </LocalizationProvider> */}
     <section className={classes.lthree}> 
         <button onClick={filterHandler}>Apply Filters</button>
         <button onClick={clearHandler}>Clear All</button>
